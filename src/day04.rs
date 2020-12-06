@@ -1,7 +1,6 @@
-use std::collections::{HashMap, HashSet};
-
 use aoc_runner_derive::{aoc, aoc_generator};
 use regex::bytes::Regex;
+use std::collections::{HashMap, HashSet};
 
 #[aoc_generator(day4)]
 fn parse_input(input: &str) -> Vec<HashMap<String, String>> {
